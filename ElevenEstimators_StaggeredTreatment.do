@@ -14,6 +14,12 @@
 * Anhui University & Simon Fraser university
 ***********************************************************************
 
+/*Simulated data: staggered treatments, heterogenous (constant) TEs. (100 units, 15 time periods)
+
+"Cohort 1": 35 units are treated once at t=7, constant ATT(g=1,K)=20 for K=0-8 periods after the treatment (t=7-15)
+"Cohort 2": 35 units are treated once at t=11, constant ATT(g=2,K)=40 for K=0-4 periods after the treatment (t=11-15)
+30 units are never treated*/
+
 // Generate a complete panel of 300 units observed in 15 periods
 clear all
 timer clear
